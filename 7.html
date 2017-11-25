@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .box{
+      width: 790px;
+      height: 340px;
+      position: relative;
+      margin: 0 auto;
+    }
+    .prg{
+      width: 250px;
+      height: 20px;
+      padding: 5px 0;
+      background: rgba(195, 195, 195, 0.7);
+      position: absolute;
+      left: 280px;
+      bottom: 20px;
+      border-radius: 20px;
+    }
+    .prg ul li{
+      float: left;
+      border: 10px solid rgba(250, 250, 250, 0.71);
+      width: 0;
+      height: 0;
+      list-style: none;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+    .prg ul .sty{
+      background: #000;
+    }
+    .back,.next{
+      width: 30px;
+      height: 60px;
+      background: rgba(85, 85, 85, 0.77);
+      position: absolute;
+    }
+    .back{
+      left: 10px;
+      top: 140px;
+    }
+    .next{
+      right: 10px;
+      top: 140px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="./jd.jpg" alt="">
+    <div class="prg">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="sty"></li>
+      </ul>
+    </div>
+    <div class="back">
+      <img src="./back.png" width="30" height="60" alt="">
+    </div>
+    <div class="next">
+      <img src="./next.png" width="30" height="60" alt="">
+    </div>
+  </div>
+</body>
+</html>
